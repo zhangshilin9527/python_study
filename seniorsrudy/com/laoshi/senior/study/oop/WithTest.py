@@ -12,4 +12,8 @@ class TestWith:
 
 with TestWith():  # with后面需要带括号
     print("开始执行")
-    raise NameError("出现异常")
+    print("开始执行")
+    print("开始执行")
+    raise NameError("出现名称异常")
+
+
